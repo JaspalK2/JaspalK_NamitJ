@@ -13,3 +13,4 @@ HOW TO START THIS PROJECT:
 AUTHORS:
 Jaspal Khanuja, Namit Joshi
 SLIDE PRESENTATION FOR OUR PROJECT: https://docs.google.com/presentation/d/1xpADE34VtHrPEDEQ5at4uKwhFZ_Pf5Om9VfqVmfCzOY/edit#slide=id.p
+PLANNING SPREADSHEET W/ MILESTONES: https://docs.google.com/spreadsheets/d/1Kxtg02iDVI-XJ7ruXl5HGSDhFV2ySh8NfVMgoBSLRwU/edit?usp=sharing
