@@ -20,7 +20,7 @@ public class Magpie4
 	 */	
 	public String getGreeting()
 	{
-		return "Hello, let's talk.";
+		return "Hello";
 	}
 	
 	/**
@@ -58,6 +58,25 @@ public class Magpie4
         else if(findKeyword(statement, "movies", 0) >= 0){
         talkAboutMovies();
         }
+        else if(findKeyword(statement, "who are you", 0) >= 0){
+        response = "I am Movie Bot";
+        }
+         else if (findKeyword(statement, "hello") >= 0||findKeyword(statement, "hi") >= 0){
+            response = "hello";
+        }
+        else if (findKeyword(statement, "hello") >= 0||findKeyword(statement, "hi") >= 0){
+            response = "hello";
+        }
+        else if (findKeyword(statement, "how") >= 0&&findKeyword(statement, "you") >= 0){
+            response = "I am fine, how about you?";
+        }
+        else if (findKeyword(statement, "doing") >= 0&&findKeyword(statement, "good") >= 0){
+            response = "That's good to know";
+        }
+         else if (findKeyword(statement, "talk") >= 0&&findKeyword(statement, "about") >= 0){
+            response = "I enjoy talking about movies, ";
+        }
+        
 		else
 		{
 			// Look for a two word (you <something> me)
@@ -113,7 +132,7 @@ public class Magpie4
 
          if(findKeyword(userName, "action", 0) >= 0){
          Scanner Action2 = new Scanner(System.in); 
-         System.out.println("What sub-geners do you like to watch");
+         System.out.println("What sub-genres for action movies would  you like to watch");
          String typeAction = Action2.nextLine(); 
 
             if(findKeyword(typeAction, "Spy", 0) >= 0){
@@ -132,7 +151,7 @@ public class Magpie4
            }
            else if(findKeyword(userName, "romance", 0) >= 0){
                Scanner Action2 = new Scanner(System.in); 
-                System.out.println("What sub-geners do you like to watch");
+                System.out.println("What sub-genres for romance movies would you like to watch");
                 String typeAction = Action2.nextLine(); 
                 if(findKeyword(typeAction, "historical", 0) >= 0){
                RomanceInterest("historical");
